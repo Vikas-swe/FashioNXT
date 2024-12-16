@@ -1,7 +1,7 @@
 import openai
 
 # Set your API key
-openai.api_key = "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"
+openai.api_key = OPENAI_API_KEY
 
 from datetime import datetime
 
