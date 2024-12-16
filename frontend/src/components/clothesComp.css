@@ -1,0 +1,24 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scroll-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+/* Hover effect */
+.cloth-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-color: #555;
+}
+
+/* Selected cloth-card state */
+.cloth-card.selected {
+  border-color: #1DCACA;
+  box-shadow: 0 6px 12px rgba(0, 220, 202, 0.3);
+  transform: translateY(-10px);
+}
